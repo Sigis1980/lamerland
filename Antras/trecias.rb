@@ -1,4 +1,5 @@
 puts 'Koks tavo megstamiausias skaicius?'
-var1=gets.chomp
+var1 = gets.chomp
 
-puts 'Manau tau geriau tinka     ' +  (var1.to_i+2).to_s+'.69'
+# sprintf style output
+puts "Manau tau geriau tinka %.2f" % [var1.to_i + 2.69]
